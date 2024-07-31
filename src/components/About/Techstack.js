@@ -16,6 +16,15 @@ import {
   SiNextdotjs,
   SiSolidity,
   SiPostgresql,
+  SiTypescript,
+  SiTensorflow,
+  SiOpencv,
+  SiMicrosoftazure,
+  SiNumpy,
+  SiPandas,
+  SiScikitlearn,
+  SiAzuredevops,
+  SiTailwindcss
 } from "react-icons/si";
 import { TbBrandGolang } from "react-icons/tb";
 
@@ -23,13 +32,22 @@ function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
-        <CgCPlusPlus />
+        <DiPython />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiJavascript1 />
+        <SiTensorflow />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <TbBrandGolang />
+        <SiOpencv />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiPandas />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiScikitlearn />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiTypescript />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiNodejs />
@@ -38,32 +56,23 @@ function Techstack() {
         <DiReact />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiSolidity />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiMongodb />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
         <SiNextdotjs />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiGit />
+        <SiTailwindcss />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiFirebase />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiRedis />
-      </Col>
+        <SiMicrosoftazure />
+      </Col>    
       <Col xs={4} md={2} className="tech-icons">
         <SiPostgresql />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiPython />
-      </Col>
+        <DiGit />
+      </Col> 
       <Col xs={4} md={2} className="tech-icons">
-        <DiJava />
-      </Col>
+        <SiAzuredevops />
+      </Col> 
     </Row>
   );
 }
