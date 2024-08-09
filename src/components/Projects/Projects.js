@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import Coursera from "../../Assets/Projects/Coursera.png";
+import Coursera from "../../Assets/Projects/coursera1.jpeg";
 import paint from "../../Assets/Projects/paint.jpg";
 import LinearRegression from "../../Assets/Projects/LinearRegression.png";
 import power from "../../Assets/Projects/power.jpg";
@@ -63,7 +63,7 @@ handling and Matplotlib for visualisation."
               imgPath={Coursera}
               isBlog={false}
               title="Dockerized clone of Coursera deployed in AWS"
-              description="● I built a course selling application similar to Coursera, where users can sign up/login, enrol in/purchase courses, and admins can publish and edit courses."
+              description="● Built a course selling application similar to Coursera, where users can sign up/login, enrol in/purchase courses, and admins can publish and edit courses."
               techused="● Technologies used: TypeScript,Next.js,Material-UI,Next-auth (OAuth),Recoil,JWT cookie-based auth,Express,PostgreSQL,Prisma,Zod,Turborepo,AWS EC2,and Nginx."
               ghLink="https://github.com/uvamsi76/Dockerized-Monorepo-of-code-era"
             />
@@ -74,7 +74,7 @@ handling and Matplotlib for visualisation."
               imgPath={cart}
               isBlog={false}
               title="Digibuy An Ecommerce Website]"
-              description="built a Frontend of Ecommerce Website where you can signin,signup,browse products through different
+              description="● Built a Frontend of Ecommerce Website where you can signin,signup,browse products through different
 categories, Add products to cart.I built this using a fake apistore in 4 days."
 techused="● Technologies used: Typescript,React,Tailwind Css"
               ghLink="https://github.com/uvamsi76/E-Commerce-Job-"
@@ -87,7 +87,7 @@ techused="● Technologies used: Typescript,React,Tailwind Css"
               imgPath={paint}
               isBlog={false}
               title="Paint Like Website"
-              description="I built a paint like website where you can draw something using mouse"
+              description="● Built a paint like website where you can draw something using mouse"
               techused="● Technologies used: Typescript,React,Tailwind Css, canvas api"
               ghLink="https://github.com/uvamsi76/paint"
               demoLink="https://paint-beta.vercel.app/"
